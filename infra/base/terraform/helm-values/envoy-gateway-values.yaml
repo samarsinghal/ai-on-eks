@@ -1,7 +1,3 @@
-# Fix service selector to match pod labels
-nameOverride: "envoy-gateway"
-fullnameOverride: "envoy-gateway"
-
 config:
   envoyGateway:
     extensionApis:
